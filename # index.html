@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto de Mecatrônica - Sala 104</title>
+    <style>
+        :root {
+            --primary-color: #0056b3;
+            --secondary-color: #f4f4f9;
+            --text-color: #333;
+            --accent-color: #003366;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: var(--text-color);
+            background-color: #f9f9f9;
+        }
+
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            text-align: center;
+            padding: 2.5rem 1rem;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            margin-top: 0.5rem;
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        nav {
+            background-color: var(--accent-color);
+            padding: 0.5rem;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 0 1.5rem;
+        }
+
+        section {
+            background: white;
+            padding: 1.5rem 2rem;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 0.5rem;
+        }
+
+        ul {
+            list-style-type: square;
+            padding-left: 1.5rem;
+        }
+
+        .team-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            padding: 0;
+            list-style-type: none;
+        }
+
+        .team-member {
+            background-color: var(--secondary-color);
+            padding: 1rem;
+            border-radius: 6px;
+            text-align: center;
+            font-weight: 500;
+            border-left: 4px solid var(--primary-color);
+        }
+
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            background-color: var(--accent-color);
+            color: white;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Curso de Mecatrônica</h1>
+        <p>Documentação do Projeto de Laboratório - Sala 104</p>
+    </header>
+
+    <nav>
+        <a href="#sobre">Sobre o Projeto</a>
+        <a href="#equipe">Equipe</a>
+        <a href="#sistemas">Sistemas</a>
+    </nav>
+
+    <div class="container">
+        <section id="sobre">
+            <h2>Sobre o Projeto</h2>
+            <p>Este repositório é destinado à documentação do projeto do curso de <strong>Mecatrônica</strong>, desenvolvido no laboratório (Sala 104). O trabalho abrange o desenvolvimento de estruturas mecânicas, circuitos eletrônicos e programação de sistemas de controle.</p>
+        </section>
+
+        <section id="equipe">
+            <h2>Integrantes do Grupo</h2>
+            <ul class="team-list">
+                <li class="team-member">Nicoly</li>
+                <li class="team-member">Alycia dos Santos</li>
+                <li class="team-member">Alicia Lopes</li>
+                <li class="team-member">Enzo</li>
+                <li class="team-member">Miguel</li>
+            </ul>
+        </section>
+
+        <section id="sistemas">
+            <h2>Áreas de Desenvolvimento</h2>
+            <ul>
+                <li><strong>Estruturas Mecânicas:</strong> Modelagem e montagem de componentes físicos do projeto.</li>
+                <li><strong>Eletrônica:</strong> Dimensionamento e montagem dos circuitos e sensores.</li>
+                <li><strong>Sistemas de Controle:</strong> Programação e automação dos atuadores e processos.</li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; Projeto de Mecatrônica - Sala 104. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>

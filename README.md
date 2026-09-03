@@ -1,1 +1,0 @@
-# Mecanica-e-Mecatronica-4.0
